@@ -11,7 +11,7 @@ InputData = [
         {"Gender": "Female", "HeightCm": 167, "WeightKg": 82}
     ]
 
-# Calulate the bmi fr the given above records and stores the data
+# Calulate the bmi for the above records and stores the data
 bmi_calc = BRC.BMIRiskCalculator()
 bmi_calc.Calculate (*InputData)
 
