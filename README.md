@@ -1,7 +1,7 @@
 
 # Usage with example
 
-'''
+```
 import BMICalculator import BMIRiskCaculator as BRC
 
 # sample input data
@@ -29,8 +29,7 @@ print("People with over weight: ", bmi_calc.GetNumPeopleWithCategory("Overweight
 # Interface (instance method) to fetch total count of people having given health risk (returns int)
 print("People with over weight: ", bmi_calc.GetNumPeopleWithRisk("Enhanced risk"))
 
-
-'''
+```
 
 
 # Testing
