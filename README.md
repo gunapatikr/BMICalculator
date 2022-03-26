@@ -33,3 +33,23 @@ print("People with over weight: ", bmi_calc.GetNumPeopleWithRisk("Enhanced risk"
 
 
 # Testing
+
+Run the following coammnd from the project directory to run the unit tests
+```
+python -m unittest -v
+```
+
+# CI Intergartion
+
+```
+# steps to get the tests coverage report
+
+1. pip install coverage
+2. coverage run -m unittest discover
+3. coverage <report file type to generate ex. json, xml, etc.>
+
+# steps to generate the package to distribute
+
+1. python setup.py sdist 
+
+```
